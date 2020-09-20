@@ -1,21 +1,52 @@
+@import './../../styles/color.scss';
+
 .experience {
     border-right: 1px solid white;
   }
   
 .work-wrapper {
 display: flex;
-margin-bottom: 15px;
     i {
-        margin-top: 10px;
+        color: $yellow;
     }
+    .timeline {
+        position: relative;
+        top: 10px;
+    }
+    .duration {
+        margin-right: 10px;
+        min-width: 80px;
+        max-width: 80px;
+    
+    }
+.vertical-line {
+    width: 1px;
+    height: auto;
+    background-color: $yellow;
+    display: flex;
+    align-self: stretch;
+    
+    position: relative;
+    left: -10px;
+}
   .work {
       margin-left: 20px;
       display: flex;
       flex-direction: column;
+      margin-bottom: 15px;
       h3 {
           margin: 0px;
       }
+      em {
+          margin-bottom: 5px;
+      }
   }
+}
+
+.info {
+    h2 {
+        margin: 0px 0px 15px 0px;
+    }
 }
 
 @media only screen and (max-width: 767px) {

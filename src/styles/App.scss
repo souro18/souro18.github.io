@@ -27,7 +27,6 @@ body {
   .flex-section {
     display: flex;
     flex-direction: column;
-    flex: 1;
     padding: 30px;
   }
 
@@ -50,6 +49,25 @@ body {
   }
 }
 
+.d-flex {
+  display: flex;
+}
 
+.color-y {
+  color: $yellow;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
   
   

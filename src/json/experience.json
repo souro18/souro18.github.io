@@ -1,11 +1,13 @@
 {
     "works": [{
         "company_name": "Scripbox",
-        "duration": "asd",
-        "description": "Asdefeafaa"
+        "duration": "Mar 2020 - Present",
+        "designation": "Product Engineer",
+        "description": "Creating new business feature with code optimization and code reusability, optimization of builds"
     }, {
-        "company_name": "Scripbox",
-        "duration": "asd",
-        "description": "Asdefeafaa"
+        "company_name": "Tata Consultancy Services",
+        "duration": "Jul 2018 - Feb 2020",
+        "designation": "Assistant System Engineer",
+        "description": "Analysing new business requirements, feasibility checking, creating prototypes, developing features, code review."
     }]
 }
