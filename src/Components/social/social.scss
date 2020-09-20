@@ -1,0 +1,39 @@
+@import './../../styles/color.scss';
+.social-wrapper {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.social {
+    display: flex;
+    flex-basis: 28%;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border: 1px solid $yellow;
+    background-color: $primary-hover;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    i {
+        color: $primary-color;
+    }
+
+    span {
+        color: $secondary-color;
+    }
+
+    &:hover {
+        i {
+            color: $yellow;
+            zoom: 1.1;
+            transition: 1s ease-in-out;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .social {
+        flex-basis: 100%;
+    }
+}

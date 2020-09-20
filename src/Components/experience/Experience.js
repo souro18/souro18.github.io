@@ -27,7 +27,7 @@ const Experience = () => {
                     })}
                 </div>
                 <div className="flex-section info flex-1">
-                    <h2 className="color-y">My Work Experience</h2>
+                    <h2 className="color-y section-title">My Work Experience</h2>
                     <span>sdhwuegf ygf srjfg jsgr sd</span>
                     <button className="btn"  type="submit">
                     <a href={cv} download="Sourajit_Paul_CV">

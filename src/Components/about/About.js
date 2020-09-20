@@ -11,7 +11,7 @@ const About = () => {
                     <img src={selfImage} className="img-responsive" id ="self-image" alt=""/>
                 </div>
                 <div className="flex-section flex-2">
-                    <h2 className='color-y'>About Me</h2>
+                    <h2 className='color-y section-title'>About Me</h2>
                     <span>Quick learner,Passionate about coding,Love to learn new technologies </span>
                     <div className="skill-wrapper">
                         {skillsData.map(skill => {

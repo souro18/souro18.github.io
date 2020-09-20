@@ -1,0 +1,17 @@
+[
+    {
+        "name": "GitHub",
+        "icon": "fa-medium",
+        "link": "https://www.github.com/souro18/"
+    },
+    {
+        "name": "LinkedIn",
+        "icon": "fa-linkedin",
+        "link": "https://www.linkedin.com/in/sourajit-paul-890a70134/"
+    },
+    {
+        "name": "Email",
+        "icon": "fa-envelope",
+        "link": "mailto:sourajit.paul18@gmail.com"
+    }
+]
