@@ -6,6 +6,9 @@
   
 .work-wrapper {
 display: flex;
+&:last-of-type .work{
+    margin-bottom: 0px;
+}
     i {
         color: $yellow;
     }
@@ -33,7 +36,9 @@ display: flex;
       margin-left: 20px;
       display: flex;
       flex-direction: column;
-      margin-bottom: 15px;
+      margin-bottom: 30px;
+
+      
       h3 {
           margin: 0px;
       }
