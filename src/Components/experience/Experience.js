@@ -2,6 +2,8 @@ import React from 'react';
 import experienceData from './../../json/experience.json';
 import './experience.scss';
 
+const cv = require('./../../asset/Sourajit_Paul_CV.pdf');
+
 const Experience = () => {
     return (
         <section className="container">
@@ -27,9 +29,11 @@ const Experience = () => {
                 <div className="flex-section info flex-1">
                     <h2 className="color-y">My Work Experience</h2>
                     <span>sdhwuegf ygf srjfg jsgr sd</span>
-                    <button className="btn">
+                    <button className="btn"  type="submit">
+                    <a href={cv} download="Sourajit_Paul_CV">
                     <i className="fa fa-download fa-lg" aria-hidden="true"></i>
                     <span>Download My CV</span>
+                    </a>
                     </button>
                 </div>
             </div>

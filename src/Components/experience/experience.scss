@@ -43,6 +43,32 @@ display: flex;
   }
 }
 
+.btn {
+    margin: 15px 0px;
+    padding: 10px;
+    max-width: 250px;
+    border: 2px solid $yellow;
+    background-color: $yellow;
+    border-radius: 6px;
+
+    span, i {
+        color: $dark-grey;
+    }
+    
+    &:hover {
+      background-color: $primary-hover;
+      transition: 0.5s ease;
+
+      span, i {
+        color: $secondary-color;
+      }
+    }
+  
+    .fa {
+      margin-right: 10px;
+    }
+  }
+
 .info {
     h2 {
         margin: 0px 0px 15px 0px;

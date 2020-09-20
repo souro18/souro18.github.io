@@ -1,5 +1,5 @@
 import React from 'react';
-import selfImage from '../../img/self.jpg';
+import selfImage from '../../asset/img/self.jpg';
 import skillsData from '../../json/skills.json'
 
 import './about.scss';

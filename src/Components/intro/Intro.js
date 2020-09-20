@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 import './intro.scss';
-import introImage from '../../img/coder-shoot.jpg';
+import introImage from '../../asset/img/coder-shoot.jpg';
 
 const Intro = () => {
     return (
