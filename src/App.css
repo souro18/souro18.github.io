@@ -1,7 +1,8 @@
 body {
+  --theme-bg: #1f2235;
   margin: 0;
   padding: 0;
-  background-color: #1f2235;
+  background-color: var(--theme-bg); 
   color: white;
 }
 
@@ -11,3 +12,21 @@ body {
   height: 100%;
   
 }
+
+.container {
+  width: 90%;
+  max-width: 1080px;
+  margin: auto;
+  padding: 20px;
+}
+
+.wrapper {
+  display: flex;
+}
+.flex-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 30px;
+}
+
