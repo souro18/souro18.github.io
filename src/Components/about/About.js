@@ -12,7 +12,7 @@ const About = () => {
                 </div>
                 <div className="flex-section flex-2">
                     <h2 className='color-y section-title'>About Me</h2>
-                    <span>Quick learner,Passionate about coding,Love to learn new technologies </span>
+                    <span>An experienced Software Developer with great eagerness to learn new tech stacks and tools. Skilled in Javascript, React with Solid knowledge of Data Structure, Algorithms.</span>
                     <div className="skill-wrapper">
                         {skillsData.map(skill => {
                             return (

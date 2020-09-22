@@ -1,0 +1,23 @@
+[
+    {
+        "name": "My Reads App",
+        "description" : "This application helps to store user’s reading wishlist and manage them in different categories.",
+        "icon": "fa fa-book",
+        "github": "https://github.com/souro18/reactnd-project-myreads-starter",
+        "demo_url": "https://souro18.github.io/reactnd-project-myreads-starter/"
+    },
+    {
+        "name": "Neighbourhood Map",
+        "description" : "This is a web based application which  helps to find popular places in the city of joy and see their location on a map.",
+        "icon": "fa fa-map",
+        "github": "https://github.com/souro18/Neighbourhood-map",
+        "demo_url": "https://souro18.github.io/Neighbourhood-map/"
+    },
+    {
+        "name": "Memory Game",
+        "description" : "A game to memorize the tiles and find the matching one with minimum steps",
+        "icon": "fa fa-lightbulb-o",
+        "github": "https://github.com/souro18/fend-project-memory-game",
+        "demo_url": "https://souro18.github.io/fend-project-memory-game/"
+    }
+]
