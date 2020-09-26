@@ -1,20 +1,23 @@
-import React from 'react';
+import React, { lazy, Suspense} from 'react';
 import './styles/App.scss';
 
 import Intro from './Components/intro/Intro';
-import Experience from './Components/experience/Experience';
-import About from './Components/about/About';
-import Social from './Components/social/social';
-import Project from './Components/project/Project';
+const Experience = lazy(() => import('./Components/experience/Experience'));
+const About = lazy(() => import('./Components/about/About'));
+const Social = lazy(() => import('./Components/social/social'));
+const Project = lazy(() => import('./Components/project/Project'));
 
 function App() {
   return (
     <main>
     <Intro/>
+    <Suspense fallback={<div>Loading...</div>}>
     <About />
     <Experience/>
     <Project />
     <Social />
+    </Suspense>
+    
     </main>
   );
 }

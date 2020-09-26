@@ -16,13 +16,13 @@ const Project = () => {
                                 <h2>{project.name}</h2>
                                 <span>{project.description}</span>
                                 <div className="action-wrapper">
-                                    <a href={project.github} target="_blank" tabIndex="-1">
+                                    <a href={project.github} target="_blank" tabIndex="-1" rel="noopener noreferrer">
                                         <button>
                                             <span>Code</span>
                                             <i className="fa fa-lg fa-code" aria-hidden="true"></i>
                                         </button>
                                     </a>
-                                    <a href={project.demo_url} target="_blank" tabIndex="-1">
+                                    <a href={project.demo_url} target="_blank" tabIndex="-1" rel="noopener noreferrer">
                                         <button>
                                             <span>Live demo</span>
                                             <i className="fa fa-lg fa-external-link" aria-hidden="true"></i>

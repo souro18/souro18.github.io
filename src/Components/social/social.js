@@ -12,7 +12,7 @@ const Social = () => {
                 {
                     socialData.map(social => {
                         return (
-                            <a className="social" key={social.name} href={social.link} target="_blank">
+                            <a className="social" key={social.name} href={social.link} target="_blank" rel="noopener noreferrer">
                                 <span>{social.name}</span>
                                 <i className={`fa fa-lg ${social.icon}`} aria-hidden="true"></i>
                             </a>
