@@ -1,0 +1,2 @@
+.social-wrapper{flex-wrap:wrap}.social,.social-wrapper{justify-content:space-between}.social{display:flex;flex-basis:28%;padding:15px 20px;border:1px solid #ffc576;background-color:#292e4d;border-radius:6px;text-decoration:none;margin-bottom:20px;font-size:20px}.social i{color:#1f2235}.social span{color:#fff}.social:hover i{color:#ffc576;transition:all .5s ease-in-out}@media only screen and (max-width:1024px){.social{flex-basis:25%}}@media only screen and (max-width:767px){.social{flex-basis:100%}.social i{color:#ffc576}}
+/*# sourceMappingURL=6.0ed50af0.chunk.css.map */
