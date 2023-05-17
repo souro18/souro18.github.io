@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2456dc9507199f933469616157693d4",
+    "revision": "4fd22cee69472f82842a1865a9d72bb7",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/3.2d83a72d.chunk.css"
   },
   {
-    "revision": "7066a38748b5bb02f9a7",
+    "revision": "14e96a09ccb5d1de6799",
     "url": "/static/css/4.8c6a30d8.chunk.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/3.97df2bd2.chunk.js"
   },
   {
-    "revision": "7066a38748b5bb02f9a7",
-    "url": "/static/js/4.cd94f742.chunk.js"
+    "revision": "14e96a09ccb5d1de6799",
+    "url": "/static/js/4.7dcf9ed0.chunk.js"
   },
   {
     "revision": "6670117f930e01942e32",
@@ -52,12 +52,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/main.8290d503.chunk.js"
   },
   {
-    "revision": "dffa593cbf0e79f1b2f8",
-    "url": "/static/js/runtime-main.4b7d7755.js"
+    "revision": "a05f56975186bf0692a0",
+    "url": "/static/js/runtime-main.0318e18f.js"
   },
   {
-    "revision": "f00cf82578b2474232fe1f049081894b",
-    "url": "/static/media/Sourajit_Paul_CV.f00cf825.pdf"
+    "revision": "4b0c7cbc8850f95fc4dc6e9249506077",
+    "url": "/static/media/Sourajit_Paul_CV.4b0c7cbc.pdf"
   },
   {
     "revision": "b361cd253d23c62348ab48bb4ae10f5c",
