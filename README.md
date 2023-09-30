@@ -5,7 +5,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 [![Lighthouse Accessibility Badge](./lighthouse/lighthouse_accessibility.svg)](https://github.com/emazzotta/lighthouse-badges)
 [![Lighthouse Best Practices Badge](./lighthouse/lighthouse_best-practices.svg)](https://github.com/emazzotta/lighthouse-badges)
 [![Lighthouse Performance Badge](./lighthouse/lighthouse_performance.svg)](https://github.com/emazzotta/lighthouse-badges)
-[![Lighthouse PWA Badge](./lighthouse/lighthouse_pwa.svg)](https://github.com/emazzotta/lighthouse-badges)
 [![Lighthouse SEO Badge](./lighthouse/lighthouse_seo.svg)](https://github.com/emazzotta/lighthouse-badges)
 
 ## Getting Started
