@@ -9,7 +9,10 @@ const Intro = () => {
     <div className="min-h-screen relative max-w-4xl m-auto px-6" ref={ref}>
       <div className="flex items-center flex-col pt-36 ">
         <h1 className="text-6xl font-semibold text-center">
-          Hi, I am Sourajit Paul
+          Hi, I am{" "}
+          <span className="text-blue-500 dark:text-blue-500">
+            Sourajit Paul
+          </span>
         </h1>
         <h3 className="text-3xl mt-8 text-center">
           I am a React developer, and I love what I do
