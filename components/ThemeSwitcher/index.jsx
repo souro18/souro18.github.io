@@ -20,6 +20,7 @@ const ThemeSwitcher = () => {
   return (
     <button
       className="fixed right-5 bottom-5 rounded-full p-4 bg-blue-500 outline-none"
+      aria-label="Switch Theme"
       onClick={() => setTheme(isDark ? "light" : "dark")}
     >
       {isDark ? <BsFillSunFill color="white" /> : <MdDarkMode color="white" />}

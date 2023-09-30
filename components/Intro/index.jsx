@@ -14,9 +14,9 @@ const Intro = () => {
             Sourajit Paul
           </span>
         </h1>
-        <h3 className="text-3xl mt-8 text-center">
+        <h2 className="text-3xl mt-8 text-center">
           I am a React developer, and I love what I do
-        </h3>
+        </h2>
       </div>
       <div className="absolute bottom-0 left-[50%] -translate-x-2/4">
         <Image
