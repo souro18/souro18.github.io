@@ -7,7 +7,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 const Intro = () => {
   const { ref } = useSectionInView(links[0].hash);
   return (
-    <div
+    <section
       className="min-h-screen relative max-w-4xl m-auto px-6 flex justify-center items-center"
       ref={ref}
     >
@@ -51,7 +51,7 @@ const Intro = () => {
           priority
         />
       </div>
-    </div>
+    </section>
   );
 };
 
