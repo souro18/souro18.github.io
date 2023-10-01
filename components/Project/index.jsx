@@ -67,7 +67,7 @@ export default function Project({ title, description, tags, imageUrl }) {
         <Image
           src={imageUrl}
           alt="Project I worked on"
-          quality={95}
+          quality={100}
           className="absolute hidden sm:block bottom-0 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
         transition 
         group-hover:scale-[1.15]
