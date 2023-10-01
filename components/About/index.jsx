@@ -21,9 +21,8 @@ function About() {
         ecosystem.
       </p>
       <p>
-        {" "}
-        embarked on my career in web development with a strong passion for
-        creating seamless user experiences. Over the years, I've had the
+        Embarked on my career in web development with a strong passion for
+        creating seamless user experiences. Over the years, I&apos;ve had the
         privilege to work on a diverse range of projects, from small startups to
         large enterprises. This experience has provided me with valuable
         insights into the nuances of software development and the ability to
