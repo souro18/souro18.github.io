@@ -27,7 +27,7 @@ export default function Skills() {
     <section
       id="skills"
       ref={ref}
-      className="mb-28 max-w-3xl m-auto scroll-mt-28 text-center sm:mb-40 mx-6 lg:mx-0"
+      className="mb-28 max-w-3xl min-h-[75vh] flex justify-center items-center flex-col text-center sm:mb-40 mx-6 lg:m-auto"
     >
       <h3 className="text-3xl font-bold mb-6">My Skills</h3>
       <ul className="flex flex-wrap justify-center gap-3 text-lg text-color-light overflow-hidden">
