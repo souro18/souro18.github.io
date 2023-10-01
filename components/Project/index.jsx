@@ -4,6 +4,7 @@ import { useRef } from "react";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { BsGithub } from "react-icons/bs";
+import { FiExternalLink } from "react-icons/fi";
 
 export default function Project({ title, description, tags, imageUrl }) {
   const ref = useRef(null);
@@ -23,8 +24,8 @@ export default function Project({ title, description, tags, imageUrl }) {
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-      <section className="bg-secondary-light max-w-2xl border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:min-h-[20rem] transition sm:group-even:pl-8 dark:text-white dark:bg-secondary-dark">
-        <div className="pt-5 pb-6 px-5 sm:pl-10 sm:pr-2 sm:pt-7 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
+      <section className="bg-secondary-light max-w-2xl border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:min-h-[20rem] transition  dark:text-white dark:bg-secondary-dark">
+        <div className="pt-5 pb-6 px-5 sm:pl-10 sm:pr-2 sm:pt-7 sm:max-w-[50%] flex flex-col h-full">
           <h3 className="text-2xl font-semibold">{title}</h3>
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/90">
             {description}
@@ -58,7 +59,7 @@ export default function Project({ title, description, tags, imageUrl }) {
               target="_blank"
               aria-label="live demo"
             >
-              <BsGithub color="white" /> Live Demo
+              <FiExternalLink color="white" /> Live Demo
             </a>
           </div>
         </div>
@@ -70,11 +71,8 @@ export default function Project({ title, description, tags, imageUrl }) {
           className="absolute hidden sm:block bottom-0 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
         transition 
         group-hover:scale-[1.15]
-        group-hover:-translate-x-3
-        group-hover:-translate-y-5
-        group-even:group-hover:translate-x-3
-        group-even:group-hover:-translate-y-5
-        group-even:right-[initial] group-even:-left-40"
+        group-hover:-translate-x-2
+        group-hover:-translate-y-5 group-hover:-rotate-2"
         />
       </section>
     </motion.div>
