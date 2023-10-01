@@ -27,13 +27,13 @@ export default function Project({ title, description, tags, imageUrl }) {
       <section className="bg-secondary-light max-w-2xl border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:min-h-[20rem] transition  dark:text-white dark:bg-secondary-dark">
         <div className="pt-5 pb-6 px-5 sm:pl-10 sm:pr-2 sm:pt-7 sm:max-w-[50%] flex flex-col h-full">
           <h3 className="text-2xl font-semibold">{title}</h3>
-          <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/90">
+          <p className="mt-2 leading-relaxed text-color-light dark:text-white">
             {description}
           </p>
           <ul className="flex flex-wrap mt-4 gap-2">
             {tags.map((tag, index) => (
               <li
-                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full"
+                className="bg-black/[0.9] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full"
                 key={index}
               >
                 {tag}
