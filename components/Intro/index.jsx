@@ -28,6 +28,7 @@ const Intro = () => {
             href={linkedInUrl}
             target="_blank"
             rel="noopener"
+            aria-label="open linkedIn"
           >
             <BsLinkedin color="white" />
           </a>
@@ -37,6 +38,7 @@ const Intro = () => {
             target="_blank"
             rel="noopener"
             href={githubUrl}
+            aria-label="open github"
           >
             <BsGithub color="white" />
           </a>
