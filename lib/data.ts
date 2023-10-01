@@ -1,3 +1,5 @@
+export const linkedInUrl = 'https://www.linkedin.com/in/sourajit-paul-890a70134/';
+export const githubUrl = 'https://github.com/souro18/';
 export const links = [
     {
       name: "Home",
