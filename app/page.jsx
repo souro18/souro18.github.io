@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Contact from "@/components/Contact";
 import Intro from "@/components/Intro";
 import ProjectList from "@/components/ProjectList";
 import Skills from "@/components/Skills";
@@ -11,6 +12,7 @@ export default function Home() {
       <About />
       <ProjectList />
       <Skills />
+      <Contact />
       <ThemeSwitcher />
     </main>
   );
