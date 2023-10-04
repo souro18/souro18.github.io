@@ -2,11 +2,13 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import toast from "react-hot-toast";
+import { ToastContainer, toast } from "react-toastify";
 import { useSectionInView } from "@/lib/useSectionInView";
 import { links } from "@/lib/data";
 import { sendEmail } from "@/actions";
 import { BsFillSendFill } from "react-icons/bs";
+import "react-toastify/dist/ReactToastify.css";
+import { toastConfig } from "@/lib/utils";
 
 export default function Contact() {
   const { ref } = useSectionInView(links[4].hash);
@@ -36,11 +38,13 @@ export default function Contact() {
           className="mt-10 flex flex-col dark:text-black justify-center"
           action={async (formData) => {
             const { error } = await sendEmail(formData);
+            console.log(error);
             if (error) {
-              toast.error(error);
+              toast.error(error, toastConfig);
               return;
             }
-            toast.success("Email sent successfully!");
+            console.log("succss");
+            toast.success("Email sent successfully!", toastConfig);
           }}
         >
           <input
@@ -66,6 +70,7 @@ export default function Contact() {
             <p className="ml-2 text-white">Send</p>
           </button>
         </form>
+        <ToastContainer />
       </div>
     </motion.section>
   );
