@@ -2,11 +2,32 @@
 
 import { useRef } from "react";
 import Image from "next/image";
-// import { motion, useScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import { BsGithub } from "react-icons/bs";
 import { FiExternalLink } from "react-icons/fi";
 
-export default function Project({ title, description, tags, imageUrl }) {
+const fadeInAnimationVariants = {
+  initial: {
+    opacity: 0,
+    y: 100,
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 0.05,
+    },
+  },
+};
+
+export default function Project({
+  title,
+  description,
+  tags,
+  imageUrl,
+  gitUrl,
+  demoUrl,
+}) {
   const ref = useRef(null);
   //   const { scrollYProgress } = useScroll({
   //     target: ref,
@@ -16,12 +37,11 @@ export default function Project({ title, description, tags, imageUrl }) {
   //   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
 
   return (
-    <div
+    <motion.div
       ref={ref}
-      //   style={{
-      //     scale: scaleProgess,
-      //     opacity: opacityProgess,
-      //   }}
+      variants={fadeInAnimationVariants}
+      initial="initial"
+      whileInView="animate"
       className="group mb-3 sm:mb-8 last:mb-0"
     >
       <section className="bg-secondary-light max-w-2xl border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:min-h-[20rem] transition  dark:text-white dark:bg-secondary-dark">
@@ -43,8 +63,8 @@ export default function Project({ title, description, tags, imageUrl }) {
           <div className="flex gap-4 mt-12">
             <a
               as="button"
-              className="py-2 px-4 rounded bg-blue-700 text-white flex gap-1 items-center"
-              href="#"
+              className="py-2 px-4 rounded bg-blue-600 text-white flex gap-1 items-center"
+              href={gitUrl}
               rel="noopener"
               target="_blank"
               aria-label={`github for ${title}`}
@@ -53,8 +73,8 @@ export default function Project({ title, description, tags, imageUrl }) {
             </a>
             <a
               as="button"
-              className="py-2 px-4 rounded bg-blue-700 text-white flex gap-1 items-center"
-              href="#"
+              className="py-2 px-4 rounded bg-blue-600 text-white flex gap-1 items-center"
+              href={demoUrl}
               rel="noopener"
               target="_blank"
               aria-label={`demo ${title}`}
@@ -75,6 +95,6 @@ export default function Project({ title, description, tags, imageUrl }) {
         group-hover:-translate-y-5 group-hover:-rotate-2"
         />
       </section>
-    </div>
+    </motion.div>
   );
 }
