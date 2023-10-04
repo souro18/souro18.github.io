@@ -7,7 +7,7 @@ function About() {
   const { ref } = useSectionInView(links[1].hash);
   return (
     <section
-      className="min-h-screen flex justify-center items-center flex-col max-w-2xl text-center leading-8 mx-8 lg:m-auto"
+      className="min-h-screen flex justify-center items-center flex-col max-w-2xl text-center leading-8 mx-8 lg:m-auto my-20"
       id={links[1].hash}
       ref={ref}
     >

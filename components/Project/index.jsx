@@ -9,11 +9,11 @@ import { FiExternalLink } from "react-icons/fi";
 const fadeInAnimationVariants = {
   initial: {
     opacity: 0,
-    y: 100,
+    x: -100,
   },
   animate: {
     opacity: 1,
-    y: 0,
+    x: 0,
     transition: {
       delay: 0.05,
     },
@@ -29,13 +29,6 @@ export default function Project({
   demoUrl,
 }) {
   const ref = useRef(null);
-  //   const { scrollYProgress } = useScroll({
-  //     target: ref,
-  //     offset: ["0 1", "1.33 1"],
-  //   });
-  //   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.9, 1]);
-  //   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
-
   return (
     <motion.div
       ref={ref}

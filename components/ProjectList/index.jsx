@@ -12,7 +12,7 @@ export default function Projects() {
     <section
       ref={ref}
       id={links[2].hash}
-      className="scroll-mt-28 mb-28  flex justify-center items-center flex-col mx-6 lg:m-auto"
+      className="scroll-mt-28 my-28  flex justify-center items-center flex-col mx-6 lg:m-auto"
     >
       <h3 className="text-3xl font-bold mb-6">My Projects</h3>
       <div>
