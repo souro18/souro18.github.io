@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className="light !scroll-smooth"
+      className="!scroll-smooth light"
       style={{ colorScheme: "light" }}
     >
       <body className={inter.className}>
